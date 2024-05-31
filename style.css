@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root{
+    --on-clr:#4318FF;
+}
+*{
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+.fs-6{
+    font-weight: 500 !important;
+}
+.fs-4{
+    font-weight: 700 !important;
+}
+
+.bg-clr{
+    background: #E9EDF2 !important;
+}
+
+.block-1 ,.block-2,.button-block{
+    background-color: white;
+    color: #2B3674;
+}
+.upload{
+    color:var(--on-clr);
+    border:3px dashed rgba(128, 128, 128, 0.4);
+}
+.upload i{
+    font-size: 30px;
+}
+input ::-webkit-input-placeholder{
+    opacity: .5 !important;
+}
+.form-label::after{
+    content: "*";
+    color: red;
+}
+.form-control:focus,.form-select:focus,.form-check-input:focus{
+    box-shadow: none !important;
+    border-color: var(--on-clr) !important;
+}
+.form-check-input:checked{
+    border-color: var(--on-clr) !important;
+    background-color: var(--on-clr) !important;
+}
+.content{
+    padding: 0 !important;
+}
+.save-btn{
+    color: white !important;
+    background-color: var(--on-clr) !important;
+}
+.button-block .btn{
+    font-size: 16px !important;
+}
+.form-control-color{
+    width: 100% !important;
+}
+
+@media screen and (max-width:1200px){
+    .c-block-1{
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width:467px){
+    .temp-row{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
