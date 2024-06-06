@@ -11,13 +11,13 @@
 <body>
     <section class="main-block bg-clr">
         <div class="parent-block container-fluid gap-3">
-            <div class="c-block-1 container  p-3 d-flex gap-3">
+            <div class="c-block-1 container pt-3 d-flex gap-3">
                 <div class="block-1 container d-flex flex-column row-gap-3 rounded-4 p-4">
                     <div class="row">
                         <h2 class="fs-4">Basic Details</h2>
                     </div>
                     <div class="content container">
-                        <label class="upload d-flex flex-column align-items-center row-gap-1 rounded p-3 bg-clr mb-3">
+                        <label class="upload d-flex flex-column align-items-center row-gap-1 rounded p-3 mb-3">
                             <label for="upload">
                                 <i class="fa-solid fa-upload "></i>
                                 <input type="file" id="upload" style="display:none" >
@@ -36,11 +36,11 @@
                                 </div>
                             <div class="col-md-5">
                                 <label for="inputPassword4" class="form-label fs-6">First Name</label>
-                                <input type="password" class="form-control rounded-4" placeholder="john" id="inputPassword4">
+                                <input type="text" class="form-control rounded-4" value="Jhon" aria-label="First name">
                             </div>
                             <div class="col-md-5">
                                 <label for="inputPassword4" class="form-label fs-6">Last Name</label>
-                                <input type="password" class="form-control rounded-4" id="inputPassword4" placeholder="Doe">
+                                <input type="text" class="form-control rounded-4" value="Doe" aria-label="First name">
                             </div>
                         </div>
                         <div class="row g-3  pt-3 pb-3">
@@ -62,7 +62,7 @@
                                 <label for="Date" class="form-label fs-6">Gender</label>
                                 <div class="d-flex">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
                                         <label class="form-check-label" for="inlineRadio2">Male</label>
                                     </div>
                                     <div class="form-check form-check-inline">
@@ -136,7 +136,7 @@
                                         <input type="range" class="form-range" id="heightrange">
                                     </div>
                                     <div class="col-md-4">
-                                        <input type="text" class="form-control rounded-4 p-3" id="heightrange" placeholder="175cm">
+                                        <input type="text" class="form-control rounded-4 p-3" id="heightrange" value="175cm">
                                     </div>
                                 </div>
                             </div>
@@ -147,7 +147,7 @@
                                         <input type="range" class="form-range" id="weightrange">
                                     </div>
                                     <div class="col-md-4">
-                                        <input type="text" class="form-control rounded-4 p-3" id="weightrange" placeholder="80kg">
+                                        <input type="text" class="form-control rounded-4 p-3" id="weightrange" value="80kg">
                                     </div>
                                 </div>
                             </div>
@@ -165,7 +165,7 @@
                                         <label class="form-check-label" for="inlineCheckbox1">Template 1</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
                                         <label class="form-check-label" for="inlineCheckbox2">Template 2</label>
                                     </div>
                                     <div class="form-check form-check-inline">
@@ -200,7 +200,7 @@
                     </div>
                 </div>
             </div>
-            <div class="c-block-2 container pb-3 d-flex">
+            <div class="c-block-2 container pt-3 d-flex">
                 <div class="container button-block rounded-4 p-3 d-flex justify-content-end column-gap-3">
                     <button type="submit" class="btn btn-lg rounded-4 p-3 bg-clr">Cancel</button>
                     <button type="submit" class="btn btn-lg rounded-4 pt-3 pb-3 pe-4 ps-4 save-btn">Save changes</button>

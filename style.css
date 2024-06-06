@@ -9,6 +9,7 @@
 
 body{
     margin: 0;
+    background: #E9EDF2 !important;
 }
 .fs-6{
     font-weight: 500 !important;
@@ -27,6 +28,7 @@ body{
 }
 .upload{
     color:var(--on-clr);
+    background-color:#FAFCFE;
     border:3px dashed rgba(128, 128, 128, 0.4);
 }
 .upload i{
@@ -60,7 +62,9 @@ input ::-webkit-input-placeholder{
 .form-control-color{
     width: 100% !important;
 }
-
+.form-range::-webkit-slider-thumb{
+    background:var(--on-clr) !important;
+}
 @media screen and (max-width:1200px){
     .c-block-1{
         flex-direction: column !important;
@@ -70,5 +74,12 @@ input ::-webkit-input-placeholder{
     .temp-row{
         flex-direction: column;
         row-gap: 30px;
+    }
+
+}
+@media screen and (max-width:550px){
+    .container,.container-fluid{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
